@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     }
 }
     const customerSchema = new Schema({
-        _id: String,
+        _id: Number,
         firstName: String,
         lastName: String,
         phoneNumber: String
