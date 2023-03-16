@@ -1,9 +1,5 @@
 import {connect, model, models, Schema} from "mongoose"
-<<<<<<< HEAD
 const connectionString = "mongodb+srv://admin:bookstoreMS@bookstorems.qgl1qca.mongodb.net/bookstore"
-=======
-const connectionString = "mongodb+srv://admin:bookstoreMS@bookstorems.qgl1qca.mongodb.net/authors"
->>>>>>> 212e30b08f02132106f867fd75abcf7c4bfe6b46
 
 export default async function handler(req, res) {
     await connect(connectionString);
@@ -22,8 +18,6 @@ export default async function handler(req, res) {
         const deletedDoc = await Author.deleteOne({ _id: id })
         res.status(200).json(deletedDoc)
     } 
-<<<<<<< HEAD
-=======
 
     else if (req.method === 'POST') {
         const newDoc = await Author.create(req.body)
@@ -35,7 +29,6 @@ export default async function handler(req, res) {
         res.status(200).json(updatedDoc)
     }
     
->>>>>>> 212e30b08f02132106f867fd75abcf7c4bfe6b46
     
     else {
         res.setHeader('Allow', ['GET', 'DELETE'])
