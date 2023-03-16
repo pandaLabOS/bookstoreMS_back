@@ -1,5 +1,9 @@
 import {connect, model, models, Schema} from "mongoose"
+<<<<<<< HEAD
+const connectionString = "mongodb+srv://admin:bookstoreMS@bookstorems.qgl1qca.mongodb.net/bookstore"
+=======
 const connectionString = "mongodb+srv://admin:bookstoreMS@bookstorems.qgl1qca.mongodb.net/customers"
+>>>>>>> 212e30b08f02132106f867fd75abcf7c4bfe6b46
 
 export default async function handler(req, res) {
     await connect(connectionString);
@@ -18,6 +22,8 @@ export default async function handler(req, res) {
         const deletedDoc = await Customer.deleteOne({ _id: id })
         res.status(200).json(deletedDoc)
     } 
+<<<<<<< HEAD
+=======
 
     else if (req.method === 'POST') {
         const newDoc = await Customer.create(req.body)
@@ -28,6 +34,7 @@ export default async function handler(req, res) {
         const updatedDoc = await Customer.updateOne({_id: id}, req.body)
         res.status(200).json(updatedDoc)
     }
+>>>>>>> 212e30b08f02132106f867fd75abcf7c4bfe6b46
     
     else {
         res.setHeader('Allow', ['GET', 'DELETE'])
@@ -35,7 +42,11 @@ export default async function handler(req, res) {
     }
 }
     const customerSchema = new Schema({
+<<<<<<< HEAD
+        _id: String,
+=======
         _id: Number,
+>>>>>>> 212e30b08f02132106f867fd75abcf7c4bfe6b46
         firstName: String,
         lastName: String,
         phoneNumber: String
