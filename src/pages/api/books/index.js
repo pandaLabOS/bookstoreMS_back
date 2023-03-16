@@ -1,30 +1,32 @@
 import {connect, model, models, Schema} from "mongoose"
-const connectionString = "mongodb+srv://user1:bookstoreUser1@bookstorems.qgl1qca.mongodb.net/"
-const database = "/stock"
+const connectionString = "mongodb+srv://user1:bookstoreUser1@bookstorems.qgl1qca.mongodb.net/bookstore"
 
 export default async function handler(req, res) {
-    await connect(`${connectionString}${database}`);
+    await connect(`${connectionString}`);
     console.log("req.method", req.method)
-    console.log(`${process.env.API_URL}`)
 
     if (req.method === 'GET') {
-        const docs = await Product.find()
+        const docs = await Book.find()
         res.status(200).json(docs)
-
-    } else if (req.method === 'POST') {
-        const doc = await Product.create(req.body)
+    } 
+    
+    else if (req.method === 'POST') {
+        const doc = await Book.create(req.body)
         res.status(201).json(doc)
-
-    } else {
+    } 
+    
+    else {
         res.setHeader('Allow', ['GET', 'POST'])
         res.status(405).end(`Method ${req.method} Not Allowed`)
     }
 }
+    const bookSchema = new Schema({
+        _id: String,
+        title: String,
+        author: String,
+        year: String,
+        image: String,
+        isbn: String  
+    })
 
-const productSchema = new Schema({
-    code: String,
-    name: String,
-    price: Number
-})
-
-const Product = models?.product || model('product', productSchema);
+    const Book = models?.book || model('book', bookSchema);
