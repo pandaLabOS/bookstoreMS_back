@@ -40,8 +40,8 @@ export default async function handler(req, res) {
         author: String,
         year: String,
         image: String,
-        isbn: String
-
+        isbn: String,
+        price: int
     })
 
     const Book = models?.book || model('book', bookSchema);
