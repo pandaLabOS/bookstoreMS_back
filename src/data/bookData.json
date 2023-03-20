@@ -6,6 +6,7 @@
       "author": "Mark P. O. Morford",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0195153448.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 1
     },
     {
@@ -14,6 +15,7 @@
       "author": "Richard Bruce Wright",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0002005018.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 2
     },
     {
@@ -22,6 +24,7 @@
       "author": "Carlo D'Este",
       "year": 1991,
       "image": "http://images.amazon.com/images/P/0060973129.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 3
     },
     {
@@ -30,6 +33,7 @@
       "author": "Gina Bari Kolata",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0374157065.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 4
     },
     {
@@ -38,6 +42,7 @@
       "author": "E. J. W. Barber",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0393045218.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 5
     },
     {
@@ -46,6 +51,7 @@
       "author": "Amy Tan",
       "year": 1991,
       "image": "http://images.amazon.com/images/P/0399135782.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 6
     },
     {
@@ -54,6 +60,7 @@
       "author": "Robert Cowley",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0425176428.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 7
     },
     {
@@ -62,6 +69,7 @@
       "author": "Scott Turow",
       "year": 1993,
       "image": "http://images.amazon.com/images/P/0671870432.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 8
     },
     {
@@ -70,6 +78,7 @@
       "author": "David Cordingly",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/0679425608.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 9
     },
     {
@@ -78,6 +87,7 @@
       "author": "Ann Beattie",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/074322678X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 10
     },
     {
@@ -86,6 +96,7 @@
       "author": "David Adams Richards",
       "year": 1988,
       "image": "http://images.amazon.com/images/P/0771074670.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 11
     },
     {
@@ -94,6 +105,7 @@
       "author": "Adam Lebor",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/080652121X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 12
     },
     {
@@ -102,6 +114,7 @@
       "author": "Sheila Heti",
       "year": 2004,
       "image": "http://images.amazon.com/images/P/0887841740.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 13
     },
     {
@@ -110,6 +123,7 @@
       "author": "R. J. Kaiser",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/1552041778.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 14
     },
     {
@@ -118,6 +132,7 @@
       "author": "Jack Canfield",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/1558746218.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 15
     },
     {
@@ -126,6 +141,7 @@
       "author": "Loren D. Estleman",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/1567407781.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 16
     },
     {
@@ -134,6 +150,7 @@
       "author": "Robert Hendrickson",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/1575663937.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 17
     },
     {
@@ -142,6 +159,7 @@
       "author": "Julia Oliver",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/1881320189.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 18
     },
     {
@@ -150,6 +168,7 @@
       "author": "John Grisham",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0440234743.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 19
     },
     {
@@ -158,6 +177,7 @@
       "author": "Toni Morrison",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0452264464.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 20
     },
     {
@@ -166,6 +186,7 @@
       "author": "The Onion",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0609804618.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 21
     },
     {
@@ -174,6 +195,7 @@
       "author": "Celia Brooks Brown",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/1841721522.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 22
     },
     {
@@ -182,6 +204,7 @@
       "author": "J. R. Parrish",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/1879384493.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 23
     },
     {
@@ -190,14 +213,17 @@
       "author": "Mary-Kate &amp; Ashley Olsen",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0061076031.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 24
     },
     {
       "isbn": "0439095026",
       "title": "Tell Me This Isn't Happening",
+      "price": 750,
       "author": "Robynn Clairday",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0439095026.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 25
     },
     {
@@ -206,6 +232,7 @@
       "author": "Kathleen Duey",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/0689821166.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 26
     },
     {
@@ -214,6 +241,7 @@
       "author": "Rich Shapero",
       "year": 2004,
       "image": "http://images.amazon.com/images/P/0971880107.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 27
     },
     {
@@ -222,6 +250,7 @@
       "author": "Michael Crichton",
       "year": 1997,
       "image": "http://images.amazon.com/images/P/0345402871.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 28
     },
     {
@@ -230,6 +259,7 @@
       "author": "MICHAEL CRICHTON",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0345417623.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 29
     },
     {
@@ -238,6 +268,7 @@
       "author": "C.S. Lewis",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/0684823802.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 30
     },
     {
@@ -246,6 +277,7 @@
       "author": "ARTHUR PHILLIPS",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0375759778.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 31
     },
     {
@@ -254,6 +286,7 @@
       "author": "Stephan Jaramillo",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/0425163091.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 32
     },
     {
@@ -262,6 +295,7 @@
       "author": "Mordecai Richler",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/3404921038.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 33
     },
     {
@@ -270,6 +304,7 @@
       "author": "Eleanor Cooney",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/3442353866.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 34
     },
     {
@@ -278,6 +313,7 @@
       "author": "Charlotte Link",
       "year": 1991,
       "image": "http://images.amazon.com/images/P/3442410665.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 35
     },
     {
@@ -286,6 +322,7 @@
       "author": "Richard North Patterson",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/3442446937.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 36
     },
     {
@@ -294,6 +331,7 @@
       "author": "Mark Salzman",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0375406328.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 37
     },
     {
@@ -302,6 +340,7 @@
       "author": "Harper Lee",
       "year": 1988,
       "image": "http://images.amazon.com/images/P/0446310786.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 38
     },
     {
@@ -310,6 +349,7 @@
       "author": "LAURA HILLENBRAND",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0449005615.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 39
     },
     {
@@ -318,6 +358,7 @@
       "author": "Barbara Kingsolver",
       "year": 1993,
       "image": "http://images.amazon.com/images/P/0060168013.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 40
     },
     {
@@ -326,6 +367,7 @@
       "author": "Jo Dereske",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/038078243X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 41
     },
     {
@@ -334,6 +376,7 @@
       "author": "Jane Austen",
       "year": 1983,
       "image": "http://images.amazon.com/images/P/055321215X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 42
     },
     {
@@ -342,6 +385,7 @@
       "author": "Dolores Krieger",
       "year": 1979,
       "image": "http://images.amazon.com/images/P/067176537X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 43
     },
     {
@@ -350,6 +394,7 @@
       "author": "Anne Rivers Siddons",
       "year": 1995,
       "image": "http://images.amazon.com/images/P/0061099686.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 44
     },
     {
@@ -358,6 +403,7 @@
       "author": "Dean R. Koontz",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0553582909.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 45
     },
     {
@@ -366,6 +412,7 @@
       "author": "Mary Higgins Clark",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0671888587.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 46
     },
     {
@@ -374,6 +421,7 @@
       "author": "Dean Koontz",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0553582747.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 47
     },
     {
@@ -382,6 +430,7 @@
       "author": "Patricia Cornwell",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0425182908.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 48
     },
     {
@@ -390,6 +439,7 @@
       "author": "J.D. Robb",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/042518630X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 49
     },
     {
@@ -398,6 +448,7 @@
       "author": "Maeve Binchy",
       "year": 1997,
       "image": "http://images.amazon.com/images/P/0440223571.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 50
     },
     {
@@ -406,6 +457,7 @@
       "author": "Laura J. Mixon",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0812523873.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 51
     },
     {
@@ -414,6 +466,7 @@
       "author": "Tim Lahaye",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0842342702.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 52
     },
     {
@@ -422,6 +475,7 @@
       "author": "JOHN GRISHAM",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0440225701.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 53
     },
     {
@@ -430,6 +484,7 @@
       "author": "M.D. Bernie S. Siegel",
       "year": 1988,
       "image": "http://images.amazon.com/images/P/0060914068.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 54
     },
     {
@@ -438,6 +493,7 @@
       "author": "Robert Penn Warren",
       "year": 1982,
       "image": "http://images.amazon.com/images/P/0156047624.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 55
     },
     {
@@ -446,6 +502,7 @@
       "author": "Hans Johannes Hoefer",
       "year": 1985,
       "image": "http://images.amazon.com/images/P/0245542957.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 56
     },
     {
@@ -454,6 +511,7 @@
       "author": "Mark Helprin",
       "year": 1992,
       "image": "http://images.amazon.com/images/P/0380715899.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 57
     },
     {
@@ -462,6 +520,7 @@
       "author": "O. Carol Simonton Md",
       "year": 1992,
       "image": "http://images.amazon.com/images/P/0553280333.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 58
     },
     {
@@ -470,6 +529,7 @@
       "author": "Chuck Hill",
       "year": 1993,
       "image": "http://images.amazon.com/images/P/0961769947.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 59
     },
     {
@@ -478,6 +538,7 @@
       "author": "David Iglehart",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0964778319.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 60
     },
     {
@@ -486,6 +547,7 @@
       "author": "Larry McMurtry",
       "year": 1986,
       "image": "http://images.amazon.com/images/P/0671623249.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 61
     },
     {
@@ -494,6 +556,7 @@
       "author": "SUZANNE FISHER STAPLES",
       "year": 1991,
       "image": "http://images.amazon.com/images/P/0679810307.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 62
     },
     {
@@ -502,6 +565,7 @@
       "author": "SUZANNE FISHER STAPLES",
       "year": 1995,
       "image": "http://images.amazon.com/images/P/0679865691.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 63
     },
     {
@@ -510,6 +574,7 @@
       "author": "Michel Tournier",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/2070423204.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 64
     },
     {
@@ -518,6 +583,7 @@
       "author": "Carl Sagan",
       "year": 1978,
       "image": "http://images.amazon.com/images/P/0345260317.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 65
     },
     {
@@ -526,6 +592,7 @@
       "author": "Aleksandr Zinoviev",
       "year": 1980,
       "image": "http://images.amazon.com/images/P/0394743741.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 66
     },
     {
@@ -534,6 +601,7 @@
       "author": "Anne Tyler",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/042511774X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 67
     },
     {
@@ -542,6 +610,7 @@
       "author": "Amy Tan",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0804106304.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 68
     },
     {
@@ -550,6 +619,7 @@
       "author": "Joseph Conrad",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/1853262404.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 69
     },
     {
@@ -558,6 +628,7 @@
       "author": "Deepak Chopra",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0312970242.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 70
     },
     {
@@ -566,6 +637,7 @@
       "author": "Thomas Hardy",
       "year": 1997,
       "image": "http://images.amazon.com/images/P/1853260053.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 71
     },
     {
@@ -574,6 +646,7 @@
       "author": "Charles Noland",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/1414035004.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 72
     },
     {
@@ -582,6 +655,7 @@
       "author": "Valerie Frankel",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0060938412.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 73
     },
     {
@@ -590,6 +664,7 @@
       "author": "Benjamin Hoff",
       "year": 1983,
       "image": "http://images.amazon.com/images/P/0140067477.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 74
     },
     {
@@ -598,6 +673,7 @@
       "author": "LAURA HILLENBRAND",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0345465083.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 75
     },
     {
@@ -606,6 +682,7 @@
       "author": "Niccolo Machiavelli",
       "year": 1952,
       "image": "http://images.amazon.com/images/P/0451625889.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 76
     },
     {
@@ -614,6 +691,7 @@
       "author": "H. Jackson Brown",
       "year": 1991,
       "image": "http://images.amazon.com/images/P/1558531025.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 77
     },
     {
@@ -622,6 +700,7 @@
       "author": "Robert A. Heinlein",
       "year": 1987,
       "image": "http://images.amazon.com/images/P/0441783589.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 78
     },
     {
@@ -630,6 +709,7 @@
       "author": "PHILIP PULLMAN",
       "year": 1988,
       "image": "http://images.amazon.com/images/P/0394895894.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 79
     },
     {
@@ -638,6 +718,7 @@
       "author": "Anna Sewell",
       "year": 1995,
       "image": "http://images.amazon.com/images/P/1569871213.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 80
     },
     {
@@ -646,6 +727,7 @@
       "author": "MICHAEL ONDAATJE",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0375410538.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 81
     },
     {
@@ -654,6 +736,7 @@
       "author": "Sandra Levy Ceren",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0966986105.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 82
     },
     {
@@ -662,6 +745,7 @@
       "author": "P.J. O'Rourke",
       "year": 1990,
       "image": "http://images.amazon.com/images/P/087113375X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 83
     },
     {
@@ -670,6 +754,7 @@
       "author": "Mike Gayle",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0340767936.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 84
     },
     {
@@ -678,6 +763,7 @@
       "author": "Stel Pavlou",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0743403843.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 85
     },
     {
@@ -686,6 +772,7 @@
       "author": "Sarah Payne Stuart",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0060930365.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 86
     },
     {
@@ -694,6 +781,7 @@
       "author": "Dan Quayle",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0060177586.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 87
     },
     {
@@ -702,6 +790,7 @@
       "author": "Donald F. Kettl",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0071416331.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 88
     },
     {
@@ -710,6 +799,7 @@
       "author": "DAVID FRUM",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0375509038.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 89
     },
     {
@@ -718,6 +808,7 @@
       "author": "Louis Lamour",
       "year": 1981,
       "image": "http://images.amazon.com/images/P/0553062042.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 90
     },
     {
@@ -726,6 +817,7 @@
       "author": "J.D. Salinger",
       "year": 1991,
       "image": "http://images.amazon.com/images/P/0316769487.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 91
     },
     {
@@ -734,6 +826,7 @@
       "author": "J. R. R. Tolkien",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/8445071408.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 92
     },
     {
@@ -742,6 +835,7 @@
       "author": "J. R. R. Tolkien",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/8445071769.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 93
     },
     {
@@ -750,6 +844,7 @@
       "author": "J. R. R. Tolkien",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/8445071777.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 94
     },
     {
@@ -758,6 +853,7 @@
       "author": "John Berendt",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0679429220.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 95
     },
     {
@@ -766,6 +862,7 @@
       "author": "Mary Higgins Clark",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/0671867156.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 96
     },
     {
@@ -774,6 +871,7 @@
       "author": "Jennifer Crusie",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0312252617.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 97
     },
     {
@@ -782,6 +880,7 @@
       "author": "Jane Heller",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0312261594.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 98
     },
     {
@@ -790,6 +889,7 @@
       "author": "Michael Rips",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0316748641.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 99
     },
     {
@@ -798,6 +898,7 @@
       "author": "Simon Mawer",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0316973742.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 100
     },
     {
@@ -806,6 +907,7 @@
       "author": "William Abrahams",
       "year": 1987,
       "image": "http://images.amazon.com/images/P/0385235941.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 101
     },
     {
@@ -814,6 +916,7 @@
       "author": "Robert T. Kiyosaki",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0446677450.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 102
     },
     {
@@ -822,6 +925,7 @@
       "author": "Ken Follett",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/0451166892.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 103
     },
     {
@@ -830,6 +934,7 @@
       "author": "John F. Love",
       "year": 1995,
       "image": "http://images.amazon.com/images/P/0553347594.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 104
     },
     {
@@ -838,6 +943,7 @@
       "author": "Robert G. Allen",
       "year": 1986,
       "image": "http://images.amazon.com/images/P/0671621009.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 105
     },
     {
@@ -846,6 +952,7 @@
       "author": "LOUIS DE BERNIERES",
       "year": 1995,
       "image": "http://images.amazon.com/images/P/067976397X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 106
     },
     {
@@ -854,6 +961,7 @@
       "author": "Pam Proctor",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/0684822733.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 107
     },
     {
@@ -862,6 +970,7 @@
       "author": "Mitch Albom",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0786868716.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 108
     },
     {
@@ -870,6 +979,7 @@
       "author": "Irene Gonzalez Frei",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/8472238822.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 109
     },
     {
@@ -878,6 +988,7 @@
       "author": "Michael Jan Friedman",
       "year": 1992,
       "image": "http://images.amazon.com/images/P/0671864769.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 110
     },
     {
@@ -886,6 +997,7 @@
       "author": "Glendon Swarthout",
       "year": 1995,
       "image": "http://images.amazon.com/images/P/0671521519.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 111
     },
     {
@@ -894,6 +1006,7 @@
       "author": "Neal Barrett Jr.",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/0440222303.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 112
     },
     {
@@ -902,6 +1015,7 @@
       "author": "David Morrell",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0312953453.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 113
     },
     {
@@ -910,6 +1024,7 @@
       "author": "Sandra Brown",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0446608653.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 114
     },
     {
@@ -918,6 +1033,7 @@
       "author": "James Patterson",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0446612545.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 115
     },
     {
@@ -926,6 +1042,7 @@
       "author": "Sandra Brown",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0446612618.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 116
     },
     {
@@ -934,6 +1051,7 @@
       "author": "Stuart Woods",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0451208080.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 117
     },
     {
@@ -942,6 +1060,7 @@
       "author": "IRIS JOHANSEN",
       "year": 2004,
       "image": "http://images.amazon.com/images/P/0553584383.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 118
     },
     {
@@ -950,6 +1069,7 @@
       "author": "Dan Brown",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0671027360.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 119
     },
     {
@@ -958,6 +1078,7 @@
       "author": "Joe Hutsko",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0812575954.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 120
     },
     {
@@ -966,6 +1087,7 @@
       "author": "Anita Shreve",
       "year": 2004,
       "image": "http://images.amazon.com/images/P/0316735736.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 121
     },
     {
@@ -974,6 +1096,7 @@
       "author": "Ann Rule",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0743439740.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 122
     },
     {
@@ -982,6 +1105,7 @@
       "author": "LEWIS GRIZZARD",
       "year": 1991,
       "image": "http://images.amazon.com/images/P/0345372700.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 123
     },
     {
@@ -990,6 +1114,7 @@
       "author": "Paul Theroux",
       "year": 1990,
       "image": "http://images.amazon.com/images/P/0380619458.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 124
     },
     {
@@ -998,6 +1123,7 @@
       "author": "Lewis Grizzard",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0446325805.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 125
     },
     {
@@ -1006,14 +1132,17 @@
       "author": "Charles Hickey",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/0451406923.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 126
     },
     {
       "isbn": "0671042858",
       "title": "The Girl Who Loved Tom Gordon",
       "author": "Stephen King",
+      "price": 750,
       "year": 2000,
       "image": "http://images.amazon.com/images/P/0671042858.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 127
     },
     {
@@ -1022,6 +1151,7 @@
       "author": "Ben Mezrich",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/0743249992.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 128
     },
     {
@@ -1030,6 +1160,7 @@
       "author": "Bill Hand",
       "year": 1992,
       "image": "http://images.amazon.com/images/P/0840734530.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 129
     },
     {
@@ -1038,6 +1169,7 @@
       "author": "Tom Clancy",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0425184226.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 130
     },
     {
@@ -1046,6 +1178,7 @@
       "author": "DANA REEVE",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/0375500766.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 131
     },
     {
@@ -1054,6 +1187,7 @@
       "author": "Roy",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/9724119378.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 132
     },
     {
@@ -1062,6 +1196,7 @@
       "author": "Barbara Metzger",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0451205197.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 133
     },
     {
@@ -1070,6 +1205,7 @@
       "author": "Gabriel Garcia Marquez",
       "year": 1998,
       "image": "http://images.amazon.com/images/P/0060929790.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 134
     },
     {
@@ -1078,6 +1214,7 @@
       "author": "Rebecca Wells",
       "year": 1996,
       "image": "http://images.amazon.com/images/P/0060976845.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 135
     },
     {
@@ -1086,6 +1223,7 @@
       "author": "Tony Hillerman",
       "year": 1992,
       "image": "http://images.amazon.com/images/P/0061099325.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 136
     },
     {
@@ -1094,6 +1232,7 @@
       "author": "Mary Higgins Clark",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0671004573.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 137
     },
     {
@@ -1102,6 +1241,7 @@
       "author": "Robert James Waller",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0446601640.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 138
     },
     {
@@ -1110,6 +1250,7 @@
       "author": "Rachel Harris",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0330484516.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 139
     },
     {
@@ -1118,6 +1259,7 @@
       "author": "IAN MCEWAN",
       "year": 2003,
       "image": "http://images.amazon.com/images/P/038572179X.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 140
     },
     {
@@ -1126,6 +1268,7 @@
       "author": "Michael Lewis",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/0393020371.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 141
     },
     {
@@ -1134,6 +1277,7 @@
       "author": "Richard Zimler",
       "year": 1999,
       "image": "http://images.amazon.com/images/P/1900850303.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 142
     },
     {
@@ -1142,6 +1286,7 @@
       "author": "Norman Jetmundsen",
       "year": 2000,
       "image": "http://images.amazon.com/images/P/1903019699.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 143
     },
     {
@@ -1150,6 +1295,7 @@
       "author": "Lorenzo Carcaterra",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0345425294.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 144
     },
     {
@@ -1158,6 +1304,7 @@
       "author": "Anne Frasier",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0451410319.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 145
     },
     {
@@ -1166,6 +1313,7 @@
       "author": "Kay Hooper",
       "year": 2002,
       "image": "http://images.amazon.com/images/P/0553583468.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 146
     },
     {
@@ -1174,6 +1322,7 @@
       "author": "Soren Kierkegaard",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/8420639133.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 147
     },
     {
@@ -1182,6 +1331,7 @@
       "author": "Jose Ortega Y Gaset",
       "year": 2001,
       "image": "http://images.amazon.com/images/P/8476409419.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 148
     },
     {
@@ -1190,6 +1340,7 @@
       "author": "Daphne Du Maurier",
       "year": 1994,
       "image": "http://images.amazon.com/images/P/0380778556.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 149
     },
     {
@@ -1198,6 +1349,7 @@
       "author": "Nathaniel Hawthorne",
       "year": 1993,
       "image": "http://images.amazon.com/images/P/0451525221.01.THUMBZZZ.jpg",
+      "price": 750,
       "bookID": 150
     }
   ]
