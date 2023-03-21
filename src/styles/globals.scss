@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #1ac559;
+}
+
+body {
+    width: 100vw;
+    padding: 2rem;
+}
+
+body .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border: none;
+}
