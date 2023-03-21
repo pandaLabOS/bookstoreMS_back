@@ -10,24 +10,39 @@ export default async function handler(req, res) {
 
     //Get only one document
     if (req.method === 'GET') {
-        const doc = await Book.findOne({ isbn : isbn })
-        console.log(`doc: ${doc}`)
-        res.status(200).json(doc)
+        try{
+            const doc = await Book.findOne({ isbn : isbn })
+            res.status(200).json(doc)
+        } catch (err) {
+            console.log(`err: ${err}`);
+        }
     } 
     
     else if (req.method === 'DELETE') {
-        const deletedDoc = await Book.deleteOne({ isbn : isbn })
-        res.status(200).json(deletedDoc)
+        try{
+            const deletedDoc = await Book.deleteOne({ isbn : isbn })
+            res.status(200).json(deletedDoc)
+        } catch (err) {
+            console.log(`err: ${err}`);
+        }
     } 
 
     else if (req.method === 'POST') {
-        const newDoc = await Book.create(req.body)
-        res.status(200).json(newDoc)
+        try{
+            const newDoc = await Book.create(req.body)
+            res.status(200).json(newDoc)
+        } catch (err) {
+            console.log(`err: ${err}`);
+        }
     }
 
     else if (req.method === 'PUT') {
-        const updatedDoc = await Book.updateOne({ isbn : isbn }, req.body)
-        res.status(200).json(updatedDoc)
+        try{
+            const updatedDoc = await Book.updateOne({ isbn : isbn }, req.body)
+            res.status(200).json(updatedDoc)
+        } catch (err) {
+            console.log(`err: ${err}`);
+        }
     }
     
     else {
