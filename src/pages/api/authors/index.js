@@ -20,13 +20,11 @@ export default async function handler(req, res) {
         res.status(405).end(`Method ${req.method} Not Allowed`)
     }
 }
-    const authorSchema = new Schema({
-        _id: String,
-        firstName: String,
-        lastName: String,
-        publisher: String
-    })
+const authorSchema = new Schema({
+    _id: String,
+    firstName: String,
+    lastName: String,
+    publisher: String
+})
 
-    const Author = models?.author || model('author', authorSchema);
-    //if NextJS already uses mongoose and it is already defined, skip the new model creation (models?.Author) = check
-    //otherwise, create a new model (model('author', authorSchema))
+const Author = models?.author || model('author', authorSchema);

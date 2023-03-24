@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     
     else if (req.method === 'POST') {
         const doc = await Book.create(req.body)
-        res.status(201).json(doc)
+        res.status(200).json(doc)
     } 
     
     else {
@@ -26,7 +26,8 @@ export default async function handler(req, res) {
         author: String,
         year: String,
         image: String,
-        isbn: String  
+        isbn: String,
+        price: Number
     })
 
     const Book = models?.book || model('book', bookSchema);

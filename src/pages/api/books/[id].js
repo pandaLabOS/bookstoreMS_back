@@ -18,14 +18,14 @@ export default async function handler(req, res) {
         }
     } 
     
-    else if (req.method === 'DELETE') {
+    else if (req.method === 'PUT') {
         try{
-            const deletedDoc = await Book.deleteOne({ isbn : isbn })
-            res.status(200).json(deletedDoc)
+            const updatedDoc = await Book.updateOne({ isbn : isbn }, req.body)
+            res.status(200).json(updatedDoc)
         } catch (err) {
             console.log(`err: ${err}`);
         }
-    } 
+    }
 
     else if (req.method === 'POST') {
         try{
@@ -36,15 +36,15 @@ export default async function handler(req, res) {
         }
     }
 
-    else if (req.method === 'PUT') {
+    else if (req.method === 'DELETE') {
         try{
-            const updatedDoc = await Book.updateOne({ isbn : isbn }, req.body)
-            res.status(200).json(updatedDoc)
+            const deletedDoc = await Book.deleteOne({ isbn : isbn })
+            res.status(200).json(deletedDoc)
         } catch (err) {
             console.log(`err: ${err}`);
         }
-    }
-    
+    } 
+
     else {
         res.setHeader('Allow', ['GET', 'DELETE'])
         res.status(405).send(`Method ${req.method} Not Allowed`)
