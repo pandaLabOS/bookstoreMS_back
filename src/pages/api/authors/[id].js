@@ -3,19 +3,22 @@ const connectionString = "mongodb+srv://user1:bookstoreUser1@bookstorems.qgl1qca
 
 export default async function handler(req, res) {
     await connect(connectionString);
-    console.log("req.method", req.method)
-    console.log("req.params.id", req.query) //Because this is being run server-side, the console.log results in an output in the terminal (which is on the server) rather than the Dev Console on browsers (because those are client-side)
+    // console.log("req.method", req.method)
+    // console.log("req.params.id", req.query)
 
-    const id = req.query.id
+    const id = req.query.id;
 
     //Get only one document
     if (req.method === 'GET') {
-        const doc = await Author.findOne({ _id : id})
+        const docs = await Author.find()
+        // console.log(`id: ${id}`)
+        // console.log(`Author object: ${docs[0].id}`)
+        const doc = docs.filter((doc) => doc.id == id);
         res.status(200).json(doc)
     } 
     
     else if (req.method === 'DELETE') {
-        const deletedDoc = await Author.deleteOne({ _id: id })
+        const deletedDoc = await Author.deleteOne({ _id : id })
         res.status(200).json(deletedDoc)
     } 
 
@@ -25,7 +28,7 @@ export default async function handler(req, res) {
     }
 
     else if (req.method === 'PUT') {
-        const updatedDoc = await Author.updateOne({_id: id}, req.body)
+        const updatedDoc = await Author.updateOne({ _id : id }, req.body)
         res.status(200).json(updatedDoc)
     }
     
@@ -43,5 +46,3 @@ export default async function handler(req, res) {
     })
 
     const Author = models?.author || model('author', authorSchema);
-    //if NextJS already uses mongoose and it is already defined, skip the new model creation (models?.Author) = check
-    //otherwise, create a new model (model('author', authorSchema))
