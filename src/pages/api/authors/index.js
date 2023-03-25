@@ -1,5 +1,5 @@
 import {connect, model, models, Schema} from "mongoose"
-const connectionString = "mongodb+srv://admin:bookstoreMS@bookstorems.qgl1qca.mongodb.net/bookstore"
+const connectionString = "mongodb+srv://user1:bookstoreUser1@bookstorems.qgl1qca.mongodb.net/bookstore"
 
 export default async function handler(req, res) {
     await connect(connectionString);
@@ -32,13 +32,11 @@ export default async function handler(req, res) {
     }
 }
 
-    const authorSchema = new Schema({
-        id: String,
-        firstName: String,
-        lastName: String,
-        publisher: String
-    })
+const authorSchema = new Schema({
+    _id: String,
+    firstName: String,
+    lastName: String,
+    publisher: String
+})
 
-    const Author = models?.author || model('author', authorSchema);
-    //if NextJS already uses mongoose and it is already defined, skip the new model creation (models?.Author) = check
-    //otherwise, create a new model (model('author', authorSchema))
+const Author = models?.author || model('author', authorSchema);

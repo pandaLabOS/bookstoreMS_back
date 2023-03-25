@@ -12,7 +12,7 @@ export default function Home() {
             <header>
                 <h1>Contents</h1>
             </header>
-            <body>
+            <>
                 <div style = {{display: "flex", flexDirection: "row", gap: "1rem"}}>  
                     <Link href = "/api/authors">
                         <button type = "button" class = "btn btn-primary">Authors API</button>
@@ -24,7 +24,7 @@ export default function Home() {
                         <button type = "button" class = "btn btn-primary">Customers API</button>
                     </Link>
                 </div>
-            </body>
+            </>
         </>
     )
 }
