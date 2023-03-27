@@ -1,0 +1,1222 @@
+// MongoDB Playground
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+const database = 'bookstore';
+const collection = 'books';
+
+// Create a new database.
+use(database);
+
+// Create a new collection.
+// db.createCollection(collection);
+
+db.books.insertMany(
+    
+// Books = 
+  [
+      {
+        "isbn": "0195153448",
+        "title": "Classical Mythology",
+        "author": "Mark P.O. Morford",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0195153448.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0002005018",
+        "title": "Clara Callan",
+        "author": "Richard Bruce Wright",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0002005018.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0060973129",
+        "title": "Decision in Normandy",
+        "author": "Carlo D'Este",
+        "year": 1991,
+        "image": "http://images.amazon.com/images/P/0060973129.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0374157065",
+        "title": "Flu: The Story of the Great Influenza Pandemic of 1918 and the Search for the Virus That Caused It",
+        "author": "Gina Bari Kolata",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0374157065.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0393045218",
+        "title": "The Mummies of Urumchi",
+        "author": "E. J. W. Barber",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0393045218.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0399135782",
+        "title": "The Kitchen God's Wife",
+        "author": "Amy Tan",
+        "year": 1991,
+        "image": "http://images.amazon.com/images/P/0399135782.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0425176428",
+        "title": "What If?: The World's Foremost Military Historians Imagine What Might Have Been",
+        "author": "Robert Cowley",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0425176428.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0671870432",
+        "title": "PLEADING GUILTY",
+        "author": "Scott Turow",
+        "year": 1993,
+        "image": "http://images.amazon.com/images/P/0671870432.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "0679425608",
+        "title": "Under the Black Flag: The Romance and the Reality of Life Among the Pirates",
+        "author": "David Cordingly",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/0679425608.01.THUMBZZZ.jpg",
+        "price": 750
+      },
+      {
+        "isbn": "074322678X",
+        "title": "Where You'll Find Me: And Other Stories",
+        "author": "Ann Beattie",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/074322678X.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "0771074670",
+        "title": "Nights Below Station Street",
+        "author": "David Adams Richards",
+        "year": 1988,
+        "image": "http://images.amazon.com/images/P/0771074670.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "080652121X",
+        "title": "Hitler's Secret Bankers: The Myth of Swiss Neutrality During the Holocaust",
+        "author": "Adam Lebor",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/080652121X.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "0887841740",
+        "title": "The Middle Stories",
+        "author": "Sheila Heti",
+        "year": 2004,
+        "image": "http://images.amazon.com/images/P/0887841740.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "1552041778",
+        "title": "Jane Doe",
+        "author": "R. J. Kaiser",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/1552041778.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "1558746218",
+        "title": "A Second Chicken Soup for the Woman's Soul (Chicken Soup for the Soul Series)",
+        "author": "Jack Canfield",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/1558746218.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "1567407781",
+        "title": "The Witchfinder (Amos Walker Mystery Series)",
+        "author": "Loren D. Estleman",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/1567407781.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "1575663937",
+        "title": "More Cunning Than Man: A Social History of Rats and Man",
+        "author": "Robert Hendrickson",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/1575663937.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "1881320189",
+        "title": "Goodbye to the Buttermilk Sky",
+        "author": "Julia Oliver",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/1881320189.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "0440234743",
+        "title": "The Testament",
+        "author": "John Grisham",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0440234743.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0452264464",
+        "title": "Beloved (Plume Contemporary Fiction)",
+        "author": "Toni Morrison",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0452264464.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "0609804618",
+        "title": "Our Dumb Century: The Onion Presents 100 Years of Headlines from America's Finest News Source",
+        "author": "The Onion",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0609804618.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "1841721522",
+        "title": "New Vegetarian: Bold and Beautiful Recipes for Every Occasion",
+        "author": "Celia Brooks Brown",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/1841721522.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "1879384493",
+        "title": "If I'd Known Then What I Know Now: Why Not Learn from the Mistakes of Others? : You Can't Afford to Make Them All Yourself",
+        "author": "J. R. Parrish",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/1879384493.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "0061076031",
+        "title": "Mary-Kate &amp; Ashley Switching Goals (Mary-Kate and Ashley Starring in)",
+        "author": "Mary-Kate &amp; Ashley Olsen",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0061076031.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "0439095026",
+        "title": "Tell Me This Isn't Happening",
+        "price": 750,
+        "author": "Robynn Clairday",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0439095026.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "0689821166",
+        "title": "Flood : Mississippi 1927",
+        "author": "Kathleen Duey",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/0689821166.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "0971880107",
+        "title": "Wild Animus",
+        "author": "Rich Shapero",
+        "year": 2004,
+        "image": "http://images.amazon.com/images/P/0971880107.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0345402871",
+        "title": "Airframe",
+        "author": "Michael Crichton",
+        "year": 1997,
+        "image": "http://images.amazon.com/images/P/0345402871.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "0345417623",
+        "title": "Timeline",
+        "author": "MICHAEL CRICHTON",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0345417623.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0684823802",
+        "title": "OUT OF THE SILENT PLANET",
+        "author": "C.S. Lewis",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/0684823802.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "0375759778",
+        "title": "Prague : A Novel",
+        "author": "ARTHUR PHILLIPS",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0375759778.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "0425163091",
+        "title": "Chocolate Jesus",
+        "author": "Stephan Jaramillo",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/0425163091.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "3404921038",
+        "title": "Wie Barney es sieht.",
+        "author": "Mordecai Richler",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/3404921038.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "3442353866",
+        "title": "Der Fluch der Kaiserin. Ein Richter- Di- Roman.",
+        "author": "Eleanor Cooney",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/3442353866.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "3442410665",
+        "title": "Sturmzeit. Roman.",
+        "author": "Charlotte Link",
+        "year": 1991,
+        "image": "http://images.amazon.com/images/P/3442410665.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "3442446937",
+        "title": "Tage der Unschuld.",
+        "author": "Richard North Patterson",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/3442446937.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "0375406328",
+        "title": "Lying Awake",
+        "author": "Mark Salzman",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0375406328.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0446310786",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1988,
+        "image": "http://images.amazon.com/images/P/0446310786.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "0449005615",
+        "title": "Seabiscuit: An American Legend",
+        "author": "LAURA HILLENBRAND",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0449005615.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0060168013",
+        "title": "Pigs in Heaven",
+        "author": "Barbara Kingsolver",
+        "year": 1993,
+        "image": "http://images.amazon.com/images/P/0060168013.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "038078243X",
+        "title": "Miss Zukas and the Raven's Dance",
+        "author": "Jo Dereske",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/038078243X.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "055321215X",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 1983,
+        "image": "http://images.amazon.com/images/P/055321215X.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "067176537X",
+        "title": "The Therapeutic Touch: How to Use Your Hands to Help or to Heal",
+        "author": "Dolores Krieger",
+        "year": 1979,
+        "image": "http://images.amazon.com/images/P/067176537X.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "0061099686",
+        "title": "Downtown",
+        "author": "Anne Rivers Siddons",
+        "year": 1995,
+        "image": "http://images.amazon.com/images/P/0061099686.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "0553582909",
+        "title": "Icebound",
+        "author": "Dean R. Koontz",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0553582909.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "0671888587",
+        "title": "I'll Be Seeing You",
+        "author": "Mary Higgins Clark",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0671888587.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "0553582747",
+        "title": "From the Corner of His Eye",
+        "author": "Dean Koontz",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0553582747.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0425182908",
+        "title": "Isle of Dogs",
+        "author": "Patricia Cornwell",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0425182908.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "042518630X",
+        "title": "Purity in Death",
+        "author": "J.D. Robb",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/042518630X.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0440223571",
+        "title": "This Year It Will Be Different: And Other Stories",
+        "author": "Maeve Binchy",
+        "year": 1997,
+        "image": "http://images.amazon.com/images/P/0440223571.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "0812523873",
+        "title": "Proxies",
+        "author": "Laura J. Mixon",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0812523873.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "0842342702",
+        "title": "Left Behind: A Novel of the Earth's Last Days (Left Behind #1)",
+        "author": "Tim Lahaye",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0842342702.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "0440225701",
+        "title": "The Street Lawyer",
+        "author": "JOHN GRISHAM",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0440225701.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "0060914068",
+        "title": "Love, Medicine and Miracles",
+        "author": "M.D. Bernie S. Siegel",
+        "year": 1988,
+        "image": "http://images.amazon.com/images/P/0060914068.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "0156047624",
+        "title": "All the King's Men",
+        "author": "Robert Penn Warren",
+        "year": 1982,
+        "image": "http://images.amazon.com/images/P/0156047624.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "0245542957",
+        "title": "Pacific Northwest",
+        "author": "Hans Johannes Hoefer",
+        "year": 1985,
+        "image": "http://images.amazon.com/images/P/0245542957.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "0380715899",
+        "title": "A Soldier of the Great War",
+        "author": "Mark Helprin",
+        "year": 1992,
+        "image": "http://images.amazon.com/images/P/0380715899.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0553280333",
+        "title": "Getting Well Again",
+        "author": "O. Carol Simonton Md",
+        "year": 1992,
+        "image": "http://images.amazon.com/images/P/0553280333.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "0961769947",
+        "title": "Northwest Wines and Wineries",
+        "author": "Chuck Hill",
+        "year": 1993,
+        "image": "http://images.amazon.com/images/P/0961769947.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0964778319",
+        "title": "An Atmosphere of Eternity: Stories of India",
+        "author": "David Iglehart",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0964778319.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "0671623249",
+        "title": "LONESOME DOVE",
+        "author": "Larry McMurtry",
+        "year": 1986,
+        "image": "http://images.amazon.com/images/P/0671623249.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "0679810307",
+        "title": "Shabanu: Daughter of the Wind (Border Trilogy)",
+        "author": "SUZANNE FISHER STAPLES",
+        "year": 1991,
+        "image": "http://images.amazon.com/images/P/0679810307.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "0679865691",
+        "title": "Haveli (Laurel Leaf Books)",
+        "author": "SUZANNE FISHER STAPLES",
+        "year": 1995,
+        "image": "http://images.amazon.com/images/P/0679865691.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "2070423204",
+        "title": "Lieux dits",
+        "author": "Michel Tournier",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/2070423204.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "0345260317",
+        "title": "The Dragons of Eden: Speculations on the Evolution of Human Intelligence",
+        "author": "Carl Sagan",
+        "year": 1978,
+        "image": "http://images.amazon.com/images/P/0345260317.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "0394743741",
+        "title": "The yawning heights",
+        "author": "Aleksandr Zinoviev",
+        "year": 1980,
+        "image": "http://images.amazon.com/images/P/0394743741.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "042511774X",
+        "title": "Breathing Lessons",
+        "author": "Anne Tyler",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/042511774X.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0804106304",
+        "title": "The Joy Luck Club",
+        "author": "Amy Tan",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0804106304.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "1853262404",
+        "title": "Heart of Darkness (Wordsworth Collection)",
+        "author": "Joseph Conrad",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/1853262404.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0312970242",
+        "title": "The Angel Is Near",
+        "author": "Deepak Chopra",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0312970242.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "1853260053",
+        "title": "Tess of the D'Urbervilles (Wordsworth Classics)",
+        "author": "Thomas Hardy",
+        "year": 1997,
+        "image": "http://images.amazon.com/images/P/1853260053.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "1414035004",
+        "title": "The Adventures of Drew and Ellie: The Magical Dress",
+        "author": "Charles Noland",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/1414035004.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "0060938412",
+        "title": "The Accidental Virgin",
+        "author": "Valerie Frankel",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0060938412.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "0140067477",
+        "title": "The Tao of Pooh",
+        "author": "Benjamin Hoff",
+        "year": 1983,
+        "image": "http://images.amazon.com/images/P/0140067477.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "0345465083",
+        "title": "Seabiscuit",
+        "author": "LAURA HILLENBRAND",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0345465083.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "0451625889",
+        "title": "The Prince",
+        "author": "Niccolo Machiavelli",
+        "year": 1952,
+        "image": "http://images.amazon.com/images/P/0451625889.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "1558531025",
+        "title": "Life's Little Instruction Book (Life's Little Instruction Books (Paperback))",
+        "author": "H. Jackson Brown",
+        "year": 1991,
+        "image": "http://images.amazon.com/images/P/1558531025.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0441783589",
+        "title": "Starship Troopers",
+        "author": "Robert A. Heinlein",
+        "year": 1987,
+        "image": "http://images.amazon.com/images/P/0441783589.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "0394895894",
+        "title": "The Ruby in the Smoke (Sally Lockhart Trilogy, Book 1)",
+        "author": "PHILIP PULLMAN",
+        "year": 1988,
+        "image": "http://images.amazon.com/images/P/0394895894.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "1569871213",
+        "title": "Black Beauty (Illustrated Classics)",
+        "author": "Anna Sewell",
+        "year": 1995,
+        "image": "http://images.amazon.com/images/P/1569871213.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "0375410538",
+        "title": "Anil's Ghost",
+        "author": "MICHAEL ONDAATJE",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0375410538.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "0966986105",
+        "title": "Prescription for Terror",
+        "author": "Sandra Levy Ceren",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0966986105.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "087113375X",
+        "title": "Modern Manners: An Etiquette Book for Rude People",
+        "author": "P.J. O'Rourke",
+        "year": 1990,
+        "image": "http://images.amazon.com/images/P/087113375X.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "0340767936",
+        "title": "Turning Thirty",
+        "author": "Mike Gayle",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0340767936.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "0743403843",
+        "title": "Decipher",
+        "author": "Stel Pavlou",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0743403843.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "0060930365",
+        "title": "My First Cousin Once Removed: Money, Madness, and the Family of Robert Lowell",
+        "author": "Sarah Payne Stuart",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0060930365.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "0060177586",
+        "title": "Standing Firm: A Vice-Presidential Memoir",
+        "author": "Dan Quayle",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0060177586.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0071416331",
+        "title": "Team Bush : Leadership Lessons from the Bush White House",
+        "author": "Donald F. Kettl",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0071416331.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "0375509038",
+        "title": "The Right Man : The Surprise Presidency of George W. Bush",
+        "author": "DAVID FRUM",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0375509038.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0553062042",
+        "title": "Daybreakers Louis Lamour Collection",
+        "author": "Louis Lamour",
+        "year": 1981,
+        "image": "http://images.amazon.com/images/P/0553062042.01.THUMBZZZ.jpg",
+        "price": 7500
+      },
+      {
+        "isbn": "0316769487",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "year": 1991,
+        "image": "http://images.amazon.com/images/P/0316769487.01.THUMBZZZ.jpg",
+        "price": 7501
+      },
+      {
+        "isbn": "8445071408",
+        "title": "El Senor De Los Anillos: LA Comunidad Del Anillo (Lord of the Rings (Spanish))",
+        "author": "J. R. R. Tolkien",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/8445071408.01.THUMBZZZ.jpg",
+        "price": 7502
+      },
+      {
+        "isbn": "8445071769",
+        "title": "El Senor De Los Anillos: Las DOS Torres (Lord of the Rings (Paperback))",
+        "author": "J. R. R. Tolkien",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/8445071769.01.THUMBZZZ.jpg",
+        "price": 7503
+      },
+      {
+        "isbn": "8445071777",
+        "title": "El Senor De Los Anillos: El Retorno Del Rey (Tolkien, J. R. R. Lord of the Rings. 3.)",
+        "author": "J. R. R. Tolkien",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/8445071777.01.THUMBZZZ.jpg",
+        "price": 7504
+      },
+      {
+        "isbn": "0679429220",
+        "title": "Midnight in the Garden of Good and Evil: A Savannah Story",
+        "author": "John Berendt",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0679429220.01.THUMBZZZ.jpg",
+        "price": 7505
+      },
+      {
+        "isbn": "0671867156",
+        "title": "Pretend You Don't See Her",
+        "author": "Mary Higgins Clark",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/0671867156.01.THUMBZZZ.jpg",
+        "price": 7506
+      },
+      {
+        "isbn": "0312252617",
+        "title": "Fast Women",
+        "author": "Jennifer Crusie",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0312252617.01.THUMBZZZ.jpg",
+        "price": 7507
+      },
+      {
+        "isbn": "0312261594",
+        "title": "Female Intelligence",
+        "author": "Jane Heller",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0312261594.01.THUMBZZZ.jpg",
+        "price": 7508
+      },
+      {
+        "isbn": "0316748641",
+        "title": "Pasquale's Nose: Idle Days in an Italian Town",
+        "author": "Michael Rips",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0316748641.01.THUMBZZZ.jpg",
+        "price": 7509
+      },
+      {
+        "isbn": "0316973742",
+        "title": "The Gospel of Judas: A Novel",
+        "author": "Simon Mawer",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0316973742.01.THUMBZZZ.jpg",
+        "price": 75000
+      },
+      {
+        "isbn": "0385235941",
+        "title": "Prize Stories, 1987: The O'Henry Awards",
+        "author": "William Abrahams",
+        "year": 1987,
+        "image": "http://images.amazon.com/images/P/0385235941.01.THUMBZZZ.jpg",
+        "price": 75001
+      },
+      {
+        "isbn": "0446677450",
+        "title": "Rich Dad, Poor Dad: What the Rich Teach Their Kids About Money--That the Poor and Middle Class Do Not!",
+        "author": "Robert T. Kiyosaki",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0446677450.01.THUMBZZZ.jpg",
+        "price": 75002
+      },
+      {
+        "isbn": "0451166892",
+        "title": "The Pillars of the Earth",
+        "author": "Ken Follett",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/0451166892.01.THUMBZZZ.jpg",
+        "price": 75003
+      },
+      {
+        "isbn": "0553347594",
+        "title": "McDonald's: Behind the Arches",
+        "author": "John F. Love",
+        "year": 1995,
+        "image": "http://images.amazon.com/images/P/0553347594.01.THUMBZZZ.jpg",
+        "price": 75004
+      },
+      {
+        "isbn": "0671621009",
+        "title": "Creating Wealth : Retire in Ten Years Using Allen's Seven Principles of Wealth!",
+        "author": "Robert G. Allen",
+        "year": 1986,
+        "image": "http://images.amazon.com/images/P/0671621009.01.THUMBZZZ.jpg",
+        "price": 75005
+      },
+      {
+        "isbn": "067976397X",
+        "title": "Corelli's Mandolin : A Novel",
+        "author": "LOUIS DE BERNIERES",
+        "year": 1995,
+        "image": "http://images.amazon.com/images/P/067976397X.01.THUMBZZZ.jpg",
+        "price": 75006
+      },
+      {
+        "isbn": "0684822733",
+        "title": "Love, Miracles, and Animal Healing : A heartwarming look at the spiritual bond between animals and humans",
+        "author": "Pam Proctor",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/0684822733.01.THUMBZZZ.jpg",
+        "price": 75007
+      },
+      {
+        "isbn": "0786868716",
+        "title": "The Five People You Meet in Heaven",
+        "author": "Mitch Albom",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0786868716.01.THUMBZZZ.jpg",
+        "price": 75008
+      },
+      {
+        "isbn": "8472238822",
+        "title": "Tu Nombre Escrito En El Agua (La Sonrisa Vertical)",
+        "author": "Irene Gonzalez Frei",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/8472238822.01.THUMBZZZ.jpg",
+        "price": 75009
+      },
+      {
+        "isbn": "0671864769",
+        "title": "Relics (Star Trek: The Next Generation)",
+        "author": "Michael Jan Friedman",
+        "year": 1992,
+        "image": "http://images.amazon.com/images/P/0671864769.01.THUMBZZZ.jpg",
+        "price": 75010
+      },
+      {
+        "isbn": "0671521519",
+        "title": "Bless The Beasts And Children : Bless The Beasts And Children",
+        "author": "Glendon Swarthout",
+        "year": 1995,
+        "image": "http://images.amazon.com/images/P/0671521519.01.THUMBZZZ.jpg",
+        "price": 75011
+      },
+      {
+        "isbn": "0440222303",
+        "title": "The Touch of Your Shadow, the Whisper of Your Name (Babylon 5, Book 5)",
+        "author": "Neal Barrett Jr.",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/0440222303.01.THUMBZZZ.jpg",
+        "price": 75012
+      },
+      {
+        "isbn": "0312953453",
+        "title": "Blood Oath",
+        "author": "David Morrell",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0312953453.01.THUMBZZZ.jpg",
+        "price": 75013
+      },
+      {
+        "isbn": "0446608653",
+        "title": "The Alibi",
+        "author": "Sandra Brown",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0446608653.01.THUMBZZZ.jpg",
+        "price": 75014
+      },
+      {
+        "isbn": "0446612545",
+        "title": "The Beach House",
+        "author": "James Patterson",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0446612545.01.THUMBZZZ.jpg",
+        "price": 75015
+      },
+      {
+        "isbn": "0446612618",
+        "title": "A Kiss Remembered",
+        "author": "Sandra Brown",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0446612618.01.THUMBZZZ.jpg",
+        "price": 75016
+      },
+      {
+        "isbn": "0451208080",
+        "title": "The Short Forever",
+        "author": "Stuart Woods",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0451208080.01.THUMBZZZ.jpg",
+        "price": 75017
+      },
+      {
+        "isbn": "0553584383",
+        "title": "Dead Aim",
+        "author": "IRIS JOHANSEN",
+        "year": 2004,
+        "image": "http://images.amazon.com/images/P/0553584383.01.THUMBZZZ.jpg",
+        "price": 75018
+      },
+      {
+        "isbn": "0671027360",
+        "title": "Angels &amp; Demons",
+        "author": "Dan Brown",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0671027360.01.THUMBZZZ.jpg",
+        "price": 75019
+      },
+      {
+        "isbn": "0812575954",
+        "title": "The Deal",
+        "author": "Joe Hutsko",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0812575954.01.THUMBZZZ.jpg",
+        "price": 75020
+      },
+      {
+        "isbn": "0316735736",
+        "title": "All He Ever Wanted: A Novel",
+        "author": "Anita Shreve",
+        "year": 2004,
+        "image": "http://images.amazon.com/images/P/0316735736.01.THUMBZZZ.jpg",
+        "price": 75021
+      },
+      {
+        "isbn": "0743439740",
+        "title": "Every Breath You Take : A True Story of Obsession, Revenge, and Murder",
+        "author": "Ann Rule",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0743439740.01.THUMBZZZ.jpg",
+        "price": 75022
+      },
+      {
+        "isbn": "0345372700",
+        "title": "If I Ever Get Back to Georgia, I'm Gonna Nail My Feet to the Ground",
+        "author": "LEWIS GRIZZARD",
+        "year": 1991,
+        "image": "http://images.amazon.com/images/P/0345372700.01.THUMBZZZ.jpg",
+        "price": 75023
+      },
+      {
+        "isbn": "0380619458",
+        "title": "The Mosquito Coast",
+        "author": "Paul Theroux",
+        "year": 1990,
+        "image": "http://images.amazon.com/images/P/0380619458.01.THUMBZZZ.jpg",
+        "price": 75024
+      },
+      {
+        "isbn": "0446325805",
+        "title": "If Love Were Oil, I'd Be About a Quart Low",
+        "author": "Lewis Grizzard",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0446325805.01.THUMBZZZ.jpg",
+        "price": 75025
+      },
+      {
+        "isbn": "0451406923",
+        "title": "Goodbye, My Little Ones: The True Story of a Murderous Mother and Five Innocent Victims",
+        "author": "Charles Hickey",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/0451406923.01.THUMBZZZ.jpg",
+        "price": 75026
+      },
+      {
+        "isbn": "0671042858",
+        "title": "The Girl Who Loved Tom Gordon",
+        "author": "Stephen King",
+        "price": 750,
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/0671042858.01.THUMBZZZ.jpg",
+        "price": 75027
+      },
+      {
+        "isbn": "0743249992",
+        "title": "Bringing Down the House: The Inside Story of Six M.I.T. Students Who Took Vegas for Millions",
+        "author": "Ben Mezrich",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/0743249992.01.THUMBZZZ.jpg",
+        "price": 75028
+      },
+      {
+        "isbn": "0840734530",
+        "title": "The Oneprince (The Redaemian Chronicles, Book 1)",
+        "author": "Bill Hand",
+        "year": 1992,
+        "image": "http://images.amazon.com/images/P/0840734530.01.THUMBZZZ.jpg",
+        "price": 75029
+      },
+      {
+        "isbn": "0425184226",
+        "title": "The Sum of All Fears",
+        "author": "Tom Clancy",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0425184226.01.THUMBZZZ.jpg",
+        "price": 75030
+      },
+      {
+        "isbn": "0375500766",
+        "title": "Care Packages : Letters to Christopher Reeve from Strangers and Other Friends",
+        "author": "DANA REEVE",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/0375500766.01.THUMBZZZ.jpg",
+        "price": 75031
+      },
+      {
+        "isbn": "9724119378",
+        "title": "O Deus Das Pequenas Coisas",
+        "author": "Roy",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/9724119378.01.THUMBZZZ.jpg",
+        "price": 75032
+      },
+      {
+        "isbn": "0451205197",
+        "title": "Lady in Green/Minor Indiscretions (Signet Regency Romance)",
+        "author": "Barbara Metzger",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0451205197.01.THUMBZZZ.jpg",
+        "price": 75033
+      },
+      {
+        "isbn": "0060929790",
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel Garcia Marquez",
+        "year": 1998,
+        "image": "http://images.amazon.com/images/P/0060929790.01.THUMBZZZ.jpg",
+        "price": 75034
+      },
+      {
+        "isbn": "0060976845",
+        "title": "Little Altars Everywhere: A Novel",
+        "author": "Rebecca Wells",
+        "year": 1996,
+        "image": "http://images.amazon.com/images/P/0060976845.01.THUMBZZZ.jpg",
+        "price": 75035
+      },
+      {
+        "isbn": "0061099325",
+        "title": "Coyote Waits (Joe Leaphorn/Jim Chee Novels)",
+        "author": "Tony Hillerman",
+        "year": 1992,
+        "image": "http://images.amazon.com/images/P/0061099325.01.THUMBZZZ.jpg",
+        "price": 75036
+      },
+      {
+        "isbn": "0671004573",
+        "title": "Before I Say Good-Bye",
+        "author": "Mary Higgins Clark",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0671004573.01.THUMBZZZ.jpg",
+        "price": 75037
+      },
+      {
+        "isbn": "0446601640",
+        "title": "Slow Waltz in Cedar Bend",
+        "author": "Robert James Waller",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0446601640.01.THUMBZZZ.jpg",
+        "price": 75038
+      },
+      {
+        "isbn": "0330484516",
+        "title": "Twenty Minute Retreats: Revive Your Spirits in Just Minutes a Day (A Pan Self-discovery Title)",
+        "author": "Rachel Harris",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0330484516.01.THUMBZZZ.jpg",
+        "price": 75039
+      },
+      {
+        "isbn": "038572179X",
+        "title": "Atonement : A Novel",
+        "author": "IAN MCEWAN",
+        "year": 2003,
+        "image": "http://images.amazon.com/images/P/038572179X.01.THUMBZZZ.jpg",
+        "price": 75040
+      },
+      {
+        "isbn": "0393020371",
+        "title": "Next: The Future Just Happened",
+        "author": "Michael Lewis",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/0393020371.01.THUMBZZZ.jpg",
+        "price": 75041
+      },
+      {
+        "isbn": "1900850303",
+        "title": "The Angelic Darkness",
+        "author": "Richard Zimler",
+        "year": 1999,
+        "image": "http://images.amazon.com/images/P/1900850303.01.THUMBZZZ.jpg",
+        "price": 75042
+      },
+      {
+        "isbn": "1903019699",
+        "title": "The Soulbane Stratagem",
+        "author": "Norman Jetmundsen",
+        "year": 2000,
+        "image": "http://images.amazon.com/images/P/1903019699.01.THUMBZZZ.jpg",
+        "price": 75043
+      },
+      {
+        "isbn": "0345425294",
+        "title": "Gangster",
+        "author": "Lorenzo Carcaterra",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0345425294.01.THUMBZZZ.jpg",
+        "price": 75044
+      },
+      {
+        "isbn": "0451410319",
+        "title": "Hush",
+        "author": "Anne Frasier",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0451410319.01.THUMBZZZ.jpg",
+        "price": 75045
+      },
+      {
+        "isbn": "0553583468",
+        "title": "Whisper of Evil (Hooper, Kay. Evil Trilogy.)",
+        "author": "Kay Hooper",
+        "year": 2002,
+        "image": "http://images.amazon.com/images/P/0553583468.01.THUMBZZZ.jpg",
+        "price": 75046
+      },
+      {
+        "isbn": "8420639133",
+        "title": "Temor y Temblor",
+        "author": "Soren Kierkegaard",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/8420639133.01.THUMBZZZ.jpg",
+        "price": 75047
+      },
+      {
+        "isbn": "8476409419",
+        "title": "Estudios sobre el amor",
+        "author": "Jose Ortega Y Gaset",
+        "year": 2001,
+        "image": "http://images.amazon.com/images/P/8476409419.01.THUMBZZZ.jpg",
+        "price": 75048
+      },
+      {
+        "isbn": "0380778556",
+        "title": "Rebecca",
+        "author": "Daphne Du Maurier",
+        "year": 1994,
+        "image": "http://images.amazon.com/images/P/0380778556.01.THUMBZZZ.jpg",
+        "price": 75049
+      },
+      {
+        "isbn": "0451525221",
+        "title": "Scarlet Letter",
+        "author": "Nathaniel Hawthorne",
+        "year": 1993,
+        "image": "http://images.amazon.com/images/P/0451525221.01.THUMBZZZ.jpg",
+        "price": 75050
+      }
+    // 
+    ]
+
+  )

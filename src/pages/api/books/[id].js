@@ -51,7 +51,6 @@ export default async function handler(req, res) {
     }
 }
 const bookSchema = new Schema({
-    _id: String,
     title: String,
     author: String,
     year: String,

@@ -14,14 +14,13 @@ export default async function handler(req, res) {
         const doc = await Book.create(req.body)
         res.status(200).json(doc)
     } 
-    
+     
     else {
         res.setHeader('Allow', ['GET', 'POST'])
         res.status(405).end(`Method ${req.method} Not Allowed`)
     }
 }
     const bookSchema = new Schema({
-        _id: String,
         title: String,
         author: String,
         year: String,
