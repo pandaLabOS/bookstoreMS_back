@@ -3,40 +3,36 @@ const connectionString = "mongodb+srv://user1:bookstoreUser1@bookstorems.qgl1qca
 
 export default async function handler(req, res) {
     await connect(connectionString);
-    console.log("req.method", req.method)
 
     if (req.method === 'GET') {
-        try{
-        const docs = await Author.find()
+        const docs = await Author.find().sort({ firstName: 1, lastName : 1 })
         res.status(200).json(docs)
-        } catch (error){
-            console.error(error)
-        }
     } 
     
     else if (req.method === 'POST') {
-        try{
-        const doc = await Author.create(req.body)
+        // console.log(`req.body: ${JSON.stringify(req.body._id)}`)
+        const doc = await Author.create({
+            _id: ((Math.random() * 100000000000000).toString().substring(0, 12)),
+            firstName: req.body.firstName,
+            lastName: req.body.lastName,
+            publisher: req.body.publisher,
+            authorID: String(req.body.authorID)
+        })
+        console.log(`doc: ${JSON.stringify(doc)}`)
         res.status(201).json(doc)
-        } catch (error){
-            console.error(error)
-        } 
-    }
+    } 
+    
     else {
-        try{
         res.setHeader('Allow', ['GET', 'POST'])
         res.status(405).end(`Method ${req.method} Not Allowed`)
-        } catch (error){
-            console.error(error)
-        }
     }
 }
 
 const authorSchema = new Schema({
-    _id: String,
     firstName: String,
     lastName: String,
-    publisher: String
+    publisher: String,
+    authorID: String
 })
 
 const Author = models?.author || model('author', authorSchema);

@@ -6,13 +6,14 @@ export default async function handler(req, res) {
     console.log("req.method", req.method)
 
     if (req.method === 'GET') {
-        const docs = await Customer.find()
+        const docs = await Customer.find().sort({ firstName: 1, lastName : 1 })
         res.status(200).json(docs)
     } 
     
     else if (req.method === 'POST') {
+        req.body._id = ((Math.random() * 1000000000000000000000000).toString().substring(0, 12));
         const doc = await Customer.create(req.body)
-        res.status(201).json(doc)
+        res.status(201).json(doc)    
     } 
     
     else {
@@ -22,7 +23,6 @@ export default async function handler(req, res) {
 }
 
 const customerSchema = new Schema({
-    _id: String,
     firstName: String,
     lastName: String,
     phoneNumber: String
